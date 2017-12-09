@@ -17,4 +17,4 @@ Not including a computer with an Internet connection, list what other tools were
 
 ## Summary
 
-What was your overall opinion of this project? Mention positives and negatives, what worked and what didn't. What kind of hobbyist would you recommend this project to, if anyone?
+What was your overall opinion of this project? Mention positives and negatives, what worked and what didn't. Mention what skill level of hobbyist is this appropriate for, kids, adult beginners, experts, etc.

@@ -1,7 +1,7 @@
 * {box-sizing: border-box; }
 html {font-family: droid sans, sans-serif; }
 body {margin: 0; }
-article {margin: 0 auto; padding: 10px; max-width: 600px; }
+article {margin: 0 auto; padding: 10px 10px 200px; max-width: 600px; }
 article > *:first-child {margin-top: 0; }
 li {margin-bottom: 0.3em; line-height: 1.4em; font-size: 16px; }
 h1 {font-size: 36px; }
@@ -20,18 +20,37 @@ a {
 }
 
 header {
-    background: #ddd;
+    background: #869ec2;
     padding: 0 10px;
 }
 header h2 {
     margin: 0 auto 0.2em;
-    padding: 0.2em 0 0.1em 10px;
+    padding: 0.5em 0 0.4em 10px;
     max-width: 600px;
     border-bottom: 0 none;
+    font-weight: normal;
+    text-shadow: 1px 1px 2px black;
 }
 
-header h2 a {
+header a, footer a {
+    color: #fff;
+}
+
+h1 {
+    color: #336;
+    font-weight: normal;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: Electrolize, sans-serif;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     text-decoration: none;
+}
+
+h5 {
+    margin: 1em 0;
 }
 
 header p {
@@ -40,8 +59,21 @@ header p {
     max-width: 580px;
 }
 
+article aside {
+    margin-left: 10px;
+    padding-left: 20px;
+    width: 200px;
+    float: right;
+    color: #fff;
+    background: #336;
+}
+
+article aside a {
+    color: #7fcde3;
+}
+
 footer {
-    background: #ddd;
+    background: #869ec2;
     padding: 0 10px;
 }
 
@@ -50,4 +82,9 @@ footer ul {
     padding: 10px;
     list-style-type: none;
     max-width: 600px;
+}
+
+footer ul li {
+    display: inline-block;
+    padding-right: 10px;
 }
