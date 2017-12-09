@@ -62,10 +62,11 @@ header p {
 article aside {
     margin-left: 10px;
     padding-left: 20px;
-    width: 200px;
+    width: 240px;
     float: right;
     color: #fff;
-    background: #336;
+    background: #516077;
+    box-shadow: 2px 2px 8px #666;
 }
 
 article aside a {
@@ -87,4 +88,19 @@ footer ul {
 footer ul li {
     display: inline-block;
     padding-right: 10px;
+}
+
+@media (max-width: 600px) {
+    /*body {width: auto; }
+    header h2 {margin: 0; }
+    header h2 img {width: 250px; }
+    section {margin: 0 auto; float: none; width: auto; max-width: 400px; }
+    section h3 {text-align: center; }
+    section p {padding-right: 0; }*/
+    article aside {
+        margin-left: 0;
+        padding: 1px 10px;
+        width: auto;
+        float: none;
+    }
 }
