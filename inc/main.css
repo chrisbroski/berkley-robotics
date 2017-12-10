@@ -22,6 +22,7 @@ a {
 header {
     background: #869ec2;
     padding: 0 10px;
+    box-shadow: 0 1px 4px #333;
 }
 header h2 {
     margin: 0 auto 0.2em;
@@ -75,6 +76,7 @@ article aside a {
 footer {
     background: #869ec2;
     padding: 0 10px;
+    box-shadow: 0 -1px 4px #333;
 }
 
 footer ul {
